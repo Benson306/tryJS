@@ -1,0 +1,38 @@
+nav{
+    background-color: maroon;
+    top: 0;
+    height: 40px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    margin-left: 10%;
+}
+nav ul li{
+    text-transform: uppercase;
+    padding: 10px;
+    padding-left: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: cornsilk;
+}
+.sidebar{
+    background-color: black;
+    color: cornsilk;
+    width: 12%;
+    padding: 10px;
+    height: 700px;
+}
+.sidebar ul{
+    list-style: none;
+    margin-bottom: 30%;
+}
+.sidebar ul li{
+    text-transform: uppercase;
+
+}
+.sidebar ul li a{
+    text-decoration: none;
+    color: cornsilk;
+}
