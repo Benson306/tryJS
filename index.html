@@ -11,18 +11,42 @@
 <body>
     <nav>
         <ul>
+            <li><img src='images/menu.png' width='30px' onclick='sidebar()' height='20px'></li>
             <li><a href=''>Home</a></li>
             <li><a href=''>Developer</a></li>
             <li><a href=''>Contact Us</a></li>
             <li><a href=''>About Us</a></li>
         </ul>
     </nav>
-
+<div class='content'>
     <div class='sidebar'>
-        <ul><li><a href=''>Home</a></li></ul>
-        <ul><li><a href=''>Developer</a></li></ul>
-        <ul><li><a href=''>Contact US</a></li></ul>
-        <ul><li><a href=''>About US</a></li></ul>
+        <ul>
+            <li><a href=''>Home</a></li>
+            <li><a href=''>Developer</a></li>
+            <li><a href=''>Contact US</a></li>
+            <li><a href=''>About US</a></li>
+        </ul>
     </div>
+
+    <div class='calc'>
+        <form>
+            <label>First Number:</label>
+            <br>
+            <input type='text' id="number1" placeholder="First Number" required>
+            <br>
+            <br>
+            <label>Second Number:</label>
+            <br>
+            <input type='text' id="number2" placeholder="Second Number" required>
+            <br>
+            <br>
+            <button type="button" onclick="calc()">Add</button>
+        </form>
+        <br>
+        Answer is:<div id='answer'> </div>
+    </div>
+</div>
+    
 </body>
+<script src='script.js'></script>
 </html>

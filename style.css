@@ -6,7 +6,7 @@ nav{
 nav ul{
     list-style: none;
     display: flex;
-    margin-left: 10%;
+    margin-left: 0%;
 }
 nav ul li{
     text-transform: uppercase;
@@ -20,19 +20,30 @@ nav ul li a{
 .sidebar{
     background-color: black;
     color: cornsilk;
-    width: 12%;
+    width: 0%;
     padding: 10px;
     height: 700px;
+    z-index:1000;
+    transition: all 0.3s ease-in-out;
 }
 .sidebar ul{
     list-style: none;
-    margin-bottom: 30%;
+    visibility: hidden;
 }
 .sidebar ul li{
     text-transform: uppercase;
-
+    margin-bottom: 30%;
 }
 .sidebar ul li a{
     text-decoration: none;
     color: cornsilk;
+}
+.content{
+    display: flex;
+}
+.calc{
+    padding: 20px;
+}
+.calc input{
+    padding: 20px;
 }
