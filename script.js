@@ -28,3 +28,14 @@ let calc = function(){
 
     document.querySelector("#answer").innerHTML = sum;
 }
+
+let togglePassword = function(){
+    let x = document.querySelector("#password");
+
+    if(x.type === "password"){
+        x.type = "text";
+    }else{
+        x.type = "password";
+    }
+
+}
