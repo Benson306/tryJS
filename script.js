@@ -39,3 +39,30 @@ let togglePassword = function(){
     }
 
 }
+
+$toggleCard = false;
+let toggleCard = function(){
+    $card = document.querySelector('.card');
+    if($toggleCard === false){
+        $card.style.width='120%';
+        $card.style.margin='40%';
+        $toggleCard =true;
+    }else if($toggleCard ===true){
+        $card.style.width='100%';
+        $card.style.margin='20%';
+        $toggleCard =false;
+    }else{
+        $card.style.width='100%';
+        $card.style.margin='20%';
+        $toggleCard =false;
+    }
+    
+}
+$toggleSearch = false;
+let search1 = function(){
+    $search = document.querySelector('#search-input');
+    if($toggleSearch === false){
+        $search.style.visibility='visible';
+        $toggleSearch =true;
+    }
+}
