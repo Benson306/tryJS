@@ -1,10 +1,12 @@
+body {
+    margin: 0;
+}
 nav{
     background-color: maroon;
     top: 0;
-    height: 40px;
+    height: 50px;
 }
 nav ul{
-    list-style: none;
     display: flex;
     margin-left: 0%;
 }
@@ -12,6 +14,8 @@ nav ul li{
     text-transform: uppercase;
     padding: 10px;
     padding-left: 30px;
+    padding-top: 15px;
+    list-style: none;
 }
 nav ul li a{
     text-decoration: none;
@@ -61,8 +65,4 @@ button{
     margin: 20%;
     width: 100%;
     transition: all 0.3s ease-in-out;
-}
-#search-input{
-    visibility: hidden;
-    padding: 3px;
 }

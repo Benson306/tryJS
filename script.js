@@ -58,11 +58,3 @@ let toggleCard = function(){
     }
     
 }
-$toggleSearch = false;
-let search1 = function(){
-    $search = document.querySelector('#search-input');
-    if($toggleSearch === false){
-        $search.style.visibility='visible';
-        $toggleSearch =true;
-    }
-}
