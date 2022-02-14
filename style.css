@@ -54,6 +54,7 @@ button{
 }
 .calc{
     padding: 20px;
+    display: flex;
 }
 .calc input{
     padding: 20px;
@@ -65,4 +66,16 @@ button{
     margin: 20%;
     width: 100%;
     transition: all 0.3s ease-in-out;
+}
+.tab1{
+    visibility: hidden;
+}
+.tab2{
+    visibility: hidden;
+}
+.tab3{
+    visibility: hidden;
+}
+.tab4{
+    visibility: hidden;
 }
