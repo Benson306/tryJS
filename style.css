@@ -1,9 +1,8 @@
-body {
+body{
     margin: 0;
 }
 nav{
     background-color: maroon;
-    top: 0;
     height: 50px;
 }
 nav ul{
@@ -26,7 +25,7 @@ nav ul li a{
     color: cornsilk;
     width: 0%;
     padding: 10px;
-    height: 700px;
+    height: 100vh;
     z-index:1000;
     transition: all 0.3s ease-in-out;
 }

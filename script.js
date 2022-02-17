@@ -67,21 +67,13 @@ let tab1 = function(){
     let $tab4 = document.querySelector('.tab4');
 
     if($toggleTab1 ===false){
-        $tab1.style.visibility='visible';
-        $tab2.style.visibility='hidden';
-        $tab3.style.visibility='hidden';
-        $tab4.style.visibility='hidden';
 
-        document.querySelector('.tab').value = $tab1;
+        document.querySelector('.tab').innerHTML = $tab1.innerHTML;
         $toggleTab1 = true;
         $toggleTab2 = false;
         $toggleTab3 = false;
         $toggleTab4 = false;
     }else if($toggleTab1 ===true){
-        $tab1.style.visibility='hidden';
-        $tab2.style.visibility='hidden';
-        $tab3.style.visibility='hidden';
-        $tab4.style.visibility='hidden';
         $toggleTab1 = false;
         $toggleTab2 = true;
         $toggleTab3 = true;
@@ -100,20 +92,12 @@ let tab2 = function(){
 
 
     if($toggleTab2 ===false){
-        $tab1.style.visibility='hidden';
-        $tab2.style.visibility='visible';
-        $tab3.style.visibility='hidden';
-        $tab4.style.visibility='hidden';
-        document.querySelector('.tab').innerHTML = $tab2;
+        document.querySelector('.tab').innerHTML = $tab2.innerHTML;
         $toggleTab2 = true;
         $toggleTab1 = false;
         $toggleTab3 = false;
         $toggleTab4 = false;
     }else if($toggleTab2 ===true){
-        $tab1.style.visibility='hidden';
-        $tab2.style.visibility='hidden';
-        $tab3.style.visibility='hidden';
-        $tab4.style.visibility='hidden';
         $toggleTab2 = false;
         $toggleTab1 = true;
         $toggleTab3 = true;
@@ -130,19 +114,12 @@ let tab3 = function(){
     let $tab4 = document.querySelector('.tab4');
 
     if($toggleTab3 ===false){
-        $tab1.style.visibility='hidden';
-        $tab2.style.visibility='hidden';
-        $tab3.style.visibility='visible';
-        $tab4.style.visibility='hidden';
+        document.querySelector('.tab').innerHTML = $tab3.innerHTML;
         $toggleTab3 = true;
         $toggleTab1 = false;
         $toggleTab2 = false;
         $toggleTab4 = false;
     }else if($toggleTab3 ===true){
-        $tab1.style.visibility='hidden';
-        $tab2.style.visibility='hidden';
-        $tab3.style.visibility='hidden';
-        $tab4.style.visibility='hidden';
         $toggleTab3 = false;
         $toggleTab1 = true;
         $toggleTab2 = true;
@@ -159,19 +136,12 @@ let tab4 = function(){
     let $tab4 = document.querySelector('.tab4');
 
     if($toggleTab4 ===false){
-        $tab1.style.visibility='hidden';
-        $tab2.style.visibility='hidden';
-        $tab3.style.visibility='hidden';
-        $tab4.style.visibility='visible';
+        document.querySelector('.tab').innerHTML = $tab4.innerHTML;
         $toggleTab4 = true;
         $toggleTab1 = false;
         $toggleTab2 = false;
         $toggleTab3= false;
     }else if($toggleTab4 ===true){
-        $tab1.style.visibility='hidden';
-        $tab2.style.visibility='hidden';
-        $tab3.style.visibility='hidden';
-        $tab4.style.visibility='hidden';
         $toggleTab4 = false;
         $toggleTab1 = true;
         $toggleTab2 = true;
