@@ -4,6 +4,7 @@ body{
 nav{
     background-color: maroon;
     height: 50px;
+    
 }
 nav ul{
     display: flex;
@@ -50,10 +51,12 @@ button{
 }
 .content{
     display: flex;
+    margin: 0;
 }
 .calc{
     padding: 20px;
     display: flex;
+    margin: 0;
 }
 .calc input{
     padding: 20px;
